@@ -9,9 +9,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    line-height: ;
-    color:;
-    background: ;
 }
 
 /*
@@ -30,7 +27,6 @@ logo
 }
 
 .logo-container {
-    background-color:;
     border-bottom: 1px solid grey ;
     padding-bottom: 0.75rem;
     padding-top: 5px;
@@ -51,12 +47,12 @@ header
     background-color:;
     margin: 70px auto;
     padding: 30px 0;
+    overflow: hidden;
 
 }
 
 img {
     max-width: 50%;
-    background-color:;
     margin-top: 105px;
 }
 
@@ -71,23 +67,36 @@ h1 {
 
 p {
     font-size:17px;
-    line-height: 1.7;
-    margin-top: 1.5rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
     color: #000000;
 }
 
 .getbtn {
     border-radius: 10px;
     background-color:#ff6600;
-	font-weight: bold;
-	padding: 20px 50px;
+	display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    width: 25%;
     font-size: 15px;
-    margin-top: 3.0rem;
+    margin-top: 1.98rem;
     outline: none;
     color: #ffffff;
     border: #ffffff;
     cursor: pointer;
 }
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: th;
+    font-size: 18px;
+    margin: 10px;
+}
+
 
 @media (max-width: 992px) {
     .header .container-1 {
@@ -103,13 +112,12 @@ p {
 }
 .page {
     width: 100%;
-    margin: 70px auto;
-    padding: 30px 0;
+    margin: 50px auto;
+    padding: 50px 0;
     background-color:  #d4dacc;
 }
  
 .page .container-2 {
-    background-color:;
     max-width: 1200px;
     margin: 30px auto;
     padding: 10px 0;
@@ -119,54 +127,64 @@ p {
 }
 
 .container-2 h2 {
-    background-color:;
-    font-size: 60px;
-    max-width: 400px;
+    font-size: 50px;
+    max-width: 300px;
     line-height: 1.3em;
-    padding-top: 2.0rem;
+    padding-top: 3.0rem;
     text-transform: capitalize;
 }
 
 .container-2 h4 {
-    background-color: ;
     text-transform: uppercase;
     font-weight: bold;
     min-width: 300px;
+    padding-top: 1.3rem;
     color: #ff6600;
     
 }
 
-.img-1 {
-    width: 20%;
-    border-radius: 20px;
-    background-color:;
+/*
+=============== 
+Icons
+===============
+*/
 
+.icons {
+    width: 70%;
+    display: flex;
+    padding-top: 10px 10px;
+    margin: 0.2rem;
+
+    
 }
 
-.img-2 {
-    width: 20%;
-    background: #ffffff;
+.box-1 {
+    background-color: #d4dacc;
+    width: 80%;
+    margin: 20px;
+    
+}
+
+.img-1 {
+    width: 23%;
     border-radius: 20px;
+    margin: 10px;
+    background-color: #ffffff;
 }
 
 .img-3 {
     width: 30%;
     border-radius: 20%;
+    margin: 10px;
 }
  
 h3 {
     margin: 5px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
-.icons {
-    background-color:;
-    padding: 15px 0;
-    width: 400px;
-    
-}
 
 
 @media (max-width: 992px) {
@@ -180,6 +198,360 @@ h3 {
         max-width: 700px;
     }
 
+    .icons {
+        flex-direction: column;
+        padding-top: 25px;
+        text-align: left;
+        width: 95%;
+    }
+
+    .box-1 {
+        width: 95%;
+    }
+}    
+
+/*
+=============== 
+Courses
+===============
+*/
+
+
+.courses .courses-box {
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 30px 0;
+}
+
+.manage-one {
+    background-color: hwb(120 3% 87%);
+    display: flex;
+    height: 80%;
+    padding: 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.gtcourses-1 {
+    width:50%;
+    background-color:;
+    position: ;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+
+.box-manage-one {
+    margin: 20px;
+    color: #ffffff;
+    padding: 5px;
+    width: 80%;
+    align-items: center;
+}
+
+.box-manage-one p {
+    color: #ffffff;
+    font-size: 0.98rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.courses-header {
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+.courses-header-p {
+    background-color: ;
+    display: block;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.courses-header h5 {
+    text-align: center;
+    font-size: 13px ;
+    text-transform: uppercase;
+    color: #ff6600;
+    letter-spacing: 0.1rem;
+    padding: 30px;
+}
+
+.courses-header h2 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    background-color: ;
+}
+
+.box-two {
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage-box-two {
+    margin: 10px;
+    background-color: hwb(120 3% 87%);
+    color: #ffffff;
+    margin: 1px 2px;
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gtcourses-2 {
+    border-radius:10px;
+    width: 500px;
+    margin-left: 25px;
+}
+
+.box-2 {
+    margin: 20px;
+    color: #ffffff;
+    padding: 5px;
+    width: 90%;
+    align-items: center;
+}
+
+.box-2 p {
+    color: #ffffff;
+    font-size: 0.98rem;
+}
+
+@media (max-width: 992px) {
+    .courses .courses-box {
+        flex-direction: column;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+
+
+}
 
 
 
+
+/*
+=============== 
+Testimonias
+===============
+*/
+
+.testimonials {
+    width: 100%;
+    margin: 50px auto;
+    padding: 50px 0;
+    background-color:  whitesmoke;
+}
+
+
+.testimonials .testimonials-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.testimonials-header {
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+}
+
+.testimonials-header h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.testimonials-header h5 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+
+.testimonials-header-p {
+    background-color: ;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+
+} 
+.box p{
+    font-size: 0.91rem;
+    text-align: center;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex:1;
+    background-color: #d4dacc;
+    border-radius: 10px ;
+    margin: 40px 10px;
+    padding: 35px 30px;
+}
+
+@media (max-width: 992px) {
+    .testimonials .testimonials-page {
+        flex-direction: column;
+        padding-top: 5px;
+        margin-left: 20px;
+    }
+
+    .testimonials-header {
+        width: 100%;
+    }
+
+    .boxes {
+        display: block;
+        padding: 10px;
+        margin: 1px 1px;
+    }
+
+    .box {
+        margin: 15px;
+        padding: 15px;
+    }
+
+
+}
+
+/*
+=============== 
+Wealth
+===============
+*/
+
+
+.wealth {
+    width: 100%;
+    margin: 70px auto;
+    padding: 70px 0px;
+    background-color:  #000000
+}
+
+.wealth .wealth-container {
+    background-color:;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+    align-items: center;
+}
+
+.wealth-container h1 {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.wealth-h4 {
+    background-color:;
+    color: #ffffff;
+    padding: 1px 30px;
+    text-align: center;
+    font-weight: thin;
+}
+
+.wealthbtn {
+    border-radius: 10px;
+    background-color:#ff6600;
+	display: flex;
+    padding: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 15px;
+    margin-top: 1.98rem;
+    outline: none;
+    color: #ffffff;
+    border: #ffffff;
+    cursor: pointer;
+}
+
+.move-btn {
+    background-color:;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+=============== 
+NavBar
+===============
+*/
+
+.nav {
+    width: 100%;
+    margin: 30px auto;
+    padding: 70px 0px;
+
+}
+
+
+.nav .nav-bar {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.nav-links {
+    display: grid;
+}
+
+.nav-links a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav-legal h5 {
+    margin: 8px;
+    text-transform: capitalize;
+    line-height: 1.9rem;
+    text-decoration: none;
+    color: rgb(195, 185, 185);
+}
+
+.nav-bar h4 {
+    color:  rgb(195, 185, 185);
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
