@@ -51,7 +51,7 @@ header
 
 }
 
-img {
+.header-img {
     max-width: 50%;
     margin-top: 105px;
 }
@@ -78,7 +78,7 @@ p {
 	display: flex;
     padding: 0.5rem;
     align-items: center;
-    width: 25%;
+    width: 30%;
     font-size: 15px;
     margin-top: 1.98rem;
     outline: none;
@@ -105,8 +105,8 @@ button {
         margin-left: 20px;
     }
 
-    img {
-        max-width: 80%;
+    .header-img {
+        max-width: 90%;
         margin-top: 20px;
     }
 }
@@ -202,7 +202,7 @@ h3 {
         flex-direction: column;
         padding-top: 25px;
         text-align: left;
-        width: 95%;
+        
     }
 
     .box-1 {
@@ -218,7 +218,7 @@ Courses
 
 
 .courses .courses-box {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 70px auto;
     padding: 30px 0;
 }
@@ -232,13 +232,28 @@ Courses
     justify-content: space-between;
 }
 
+.courses-btn {
+   background-color: #ff6600;
+   margin-left: 25px;
+   display: flex;
+   width: 30%;
+   border-radius: 10px;
+   align-items: center;
+   outline: none;
+   color: #ffffff;
+   border: #ffffff;
+   cursor: pointer;
+}
+
+.courses-btn button{
+    font-size: 15px;
+}
+
 .gtcourses-1 {
     width:50%;
     background-color:;
-    position: ;
     border-radius: 20px;
     margin-top: 5px;
-
 }
 
 .box-manage-one {
@@ -270,8 +285,6 @@ Courses
     background-color: ;
     display: block;
     align-items: center;
-    max-width: 900px;
-    margin: auto;
     padding: 30px;
 }
 
@@ -292,7 +305,6 @@ Courses
 }
 
 .box-two {
-    padding: 10px 0;
     margin: 10px 0;
     width: 100%;
     display: flex;
@@ -303,29 +315,31 @@ Courses
     margin: 10px;
     background-color: hwb(120 3% 87%);
     color: #ffffff;
-    margin: 1px 2px;
-    width: 100%;
     align-items: center;
     border-radius: 20px;
 }
 
 .gtcourses-2 {
-    border-radius:10px;
-    width: 500px;
-    margin-left: 25px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 15px 15px;
+    padding: 10px;
 }
 
 .box-2 {
-    margin: 20px;
+    padding: 70px 0;
+    margin: 30px;
     color: #ffffff;
     padding: 5px;
-    width: 90%;
+    max-width: 600px;
     align-items: center;
 }
 
 .box-2 p {
     color: #ffffff;
     font-size: 0.98rem;
+    text-align: left;
+    margin-left: 5px;
 }
 
 @media (max-width: 992px) {
@@ -335,7 +349,41 @@ Courses
         margin-left: 20px;
     }
 
+    .box-two {
+        display: grid;
+    }
 
+    .manage-one {
+        display: grid;
+    }
+
+    .gtcourses-1 {
+        width: 95%;
+        margin: 20px 20px
+    }
+
+    .gtcourses-2{
+        width: 90%;
+        margin: 30px 35px;
+    }
+
+    
+    .courses-btn {
+        width: 25%;
+        padding: 5px;
+        margin: 40px;
+    }
+
+    .courses-header-p {
+    text-align: center;
+    padding: 50px;
+    }
+
+    .courses-header h2 {
+        width: 120%;
+        padding: 0;
+        
+    }
 }
 
 
@@ -435,6 +483,8 @@ Testimonias
     }
 
 
+
+
 }
 
 /*
@@ -442,6 +492,19 @@ Testimonias
 Wealth
 ===============
 */
+
+.wealth-img {
+ width: 95%;  
+
+}
+
+.wlt-imgs{
+    display: flex;
+    width: 25%;
+    padding: 0;
+    margin:
+}
+
 
 
 .wealth {
@@ -452,7 +515,6 @@ Wealth
 }
 
 .wealth .wealth-container {
-    background-color:;
     max-width: 1100px;
     margin: 0 auto;
     padding: 50px;
@@ -461,11 +523,11 @@ Wealth
 }
 
 .wealth-container h1 {
-    width: 100%;
+    width: 400%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #ffffff;
 }
 
@@ -496,7 +558,7 @@ Wealth
 .move-btn {
     background-color:;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 /*
@@ -509,39 +571,99 @@ NavBar
     width: 100%;
     margin: 30px auto;
     padding: 70px 0px;
+    background-color:;
 
 }
 
 
 .nav .nav-bar {
-    display:flex;
-    justify-content: space-between;
+    background-color:;
+    display: flex;
     max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    border-bottom: 0.1px solid grey ;
+}
+
+.nav-logo-container {
+    background-color: ;
+    padding-bottom: 0.75rem;
+    padding-top: 0 5px;
+    margin: 0 5px;
+    width: 50%;
+}
+
+.nav-logo img{
+    height: auto;
+    width: 80%;
+    margin-left: 50px;
+    background-color:;
+    margin: 5px 0;
+    padding: 0 5px;
+
+}
+
+.quick-link {
+    background-color:;
+    width: 100%;
+    margin: auto;
+    display: grid
+
+}
+
+.nav-link  {
+    text-decoration: none;
+    color: grey;
+    line-height: 1.9rem;
+
+    
+}
+
+.footer-1 {
+    background-color:;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 2em;
+}
+
+.header {
+    line-height: 1.7rem;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.header-1 {
+    line-height: 2.9rem;
+    text-transform: uppercase;
+}
+
+
+.page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.nav-links {
-    display: grid;
+.social a {
+	margin: 22px 10px;
+	color: grey;
+	text-decoration: none;
+	font-size: 20px;
+    border-radius: 50%;
 }
 
-.nav-links a {
-    margin: 10px;
-    text-decoration: none;
-}
 
-.nav-legal h5 {
-    margin: 8px;
-    text-transform: capitalize;
-    line-height: 1.9rem;
-    text-decoration: none;
-    color: rgb(195, 185, 185);
-}
 
-.nav-bar h4 {
-    color:  rgb(195, 185, 185);
-    margin: 15px;
-}
+
+
+
+
+
+
 
 
 
