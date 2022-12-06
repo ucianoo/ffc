@@ -9,6 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 /*
@@ -44,7 +45,6 @@ header
     justify-content: space-between;
     max-width: 1100px;
     line-height: 1.5rem;
-    background-color:;
     margin: 70px auto;
     padding: 30px 0;
     overflow: hidden;
@@ -128,7 +128,6 @@ button {
 
 .container-2 h2 {
     font-size: 50px;
-    max-width: 300px;
     line-height: 1.3em;
     padding-top: 3.0rem;
     text-transform: capitalize;
@@ -150,7 +149,7 @@ Icons
 */
 
 .icons {
-    width: 70%;
+    width: 100%;
     display: flex;
     padding-top: 10px 10px;
     margin: 0.2rem;
@@ -320,10 +319,9 @@ Courses
 }
 
 .gtcourses-2 {
-    border-radius: 20px;
-    width: 90%;
-    margin: 15px 15px;
-    padding: 10px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 
 .box-2 {
@@ -482,6 +480,21 @@ Testimonias
         padding: 15px;
     }
 
+    .nav-bar {
+        flex-direction: column;
+
+    }
+
+    .footer-1 {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .nav-logo-container {
+        margin: auto;
+    }
+
 
 
 
@@ -494,40 +507,35 @@ Wealth
 */
 
 .wealth-img {
- width: 95%;  
+ display: flex;
+ width: 98%;  
 
 }
 
 .wlt-imgs{
     display: flex;
-    width: 25%;
+    width: 100%;
     padding: 0;
-    margin:
 }
-
-
 
 .wealth {
     width: 100%;
-    margin: 70px auto;
-    padding: 70px 0px;
-    background-color:  #000000
+    background-color: #000000;
+    padding-top: 80px;
 }
 
 .wealth .wealth-container {
-    max-width: 1100px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 15px 50px;
     display: block;
     align-items: center;
 }
 
 .wealth-container h1 {
-    width: 400%;
     text-align: center;
     padding: 10px;
     margin: auto;
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
 }
 
@@ -579,17 +587,14 @@ NavBar
 .nav .nav-bar {
     background-color:;
     display: flex;
-    max-width: 1100px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 50px;
-    border-bottom: 0.1px solid grey ;
 }
 
 .nav-logo-container {
-    background-color: ;
     padding-bottom: 0.75rem;
     padding-top: 0 5px;
-    margin: 0 5px;
     width: 50%;
 }
 
@@ -597,17 +602,14 @@ NavBar
     height: auto;
     width: 80%;
     margin-left: 50px;
-    background-color:;
     margin: 5px 0;
     padding: 0 5px;
 
 }
 
 .quick-link {
-    background-color:;
     width: 100%;
-    margin: auto;
-    display: grid
+    display: grid;
 
 }
 
@@ -620,11 +622,9 @@ NavBar
 }
 
 .footer-1 {
-    background-color:;
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-column-gap: 2em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header {
